@@ -263,8 +263,8 @@ body{
 }
 .wheel{
     position: absolute;
-    width: 16%;
-    height: 30%;
+    width: 6.5vw;
+    height: 6.5vw;
     animation-name: wheel-rorate;
     animation-iteration-count: infinite;
     animation-duration: 10s;
@@ -299,259 +299,470 @@ body{
 }
 
 /*-------  Media Query ----------------*/
-@media only screen and (max-width: 2560px){
-    .wheel{
-        width: 18%;
-    }
-}
-@media only screen and (max-width: 1440px){
-    .wheel{
-        height: 28%;
-        width: 16%;
-    }
-}
-@media screen and (max-width: 1334px) {
-    .car-group{
-        width: 60%;
-        height: 140%;
-        top: -50%;
-        z-index: 1000;
-    }
-    .wheel{
-        height: 38%;
-        width: 16%;
-    }
-    .mount-1{
-        bottom: -5.5%;
-    }
-    .mount-2{
-        bottom: -7.5%;
-    }
-    .mount-3{
-        bottom: -10.5%;
-    }
-}
-@media screen and (max-width: 1272px){
-    .car-group{
-        width: 60%;
-        height: 140%;
-        top: -50%;
-        z-index: 1000;
-    }
-    .wheel{
-        height: 36%;
-        width: 18%;
-    }
-    .mount-1{
-        bottom: -6%;
-    }
-    .mount-2{
-        bottom: -8%;
-    }
-    .mount-3{
-        bottom: -11%;
-    }
-}
-@media only screen and (max-width: 1024px){
+/*@media only screen and (max-width: 2560px){*/
+/*    .wheel{*/
+/*        width: 18%;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 1440px){*/
+/*    .wheel{*/
+/*        height: 28%;*/
+/*        width: 16%;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 1334px) {*/
+/*    .car-group{*/
+/*        width: 60%;*/
+/*        height: 140%;*/
+/*        top: -50%;*/
+/*        z-index: 1000;*/
+/*    }*/
+/*    .wheel{*/
+/*        height: 38%;*/
+/*        width: 16%;*/
+/*    }*/
+/*    .mount-1{*/
+/*        bottom: -5.5%;*/
+/*    }*/
+/*    .mount-2{*/
+/*        bottom: -7.5%;*/
+/*    }*/
+/*    .mount-3{*/
+/*        bottom: -10.5%;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 1272px){*/
+/*    .car-group{*/
+/*        width: 60%;*/
+/*        height: 140%;*/
+/*        top: -50%;*/
+/*        z-index: 1000;*/
+/*    }*/
+/*    .wheel{*/
+/*        height: 36%;*/
+/*        width: 18%;*/
+/*    }*/
+/*    .mount-1{*/
+/*        bottom: -6%;*/
+/*    }*/
+/*    .mount-2{*/
+/*        bottom: -8%;*/
+/*    }*/
+/*    .mount-3{*/
+/*        bottom: -11%;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 1024px){*/
 
-}
-@media screen and (max-width: 891px){
-    .wheel{
-        height: 35%;
-        width: 18%;
-    }
-}
-@media screen and (max-width: 819px){
-    .wheel{
-        height: 30%;
-        width: 17%;
-    }
-}
-@media only screen and (max-width: 768px){
-    .car-group{
-        width: 60%;
-        height: 120%;
-    }
-    .wheel{
-        height: 28%;
-        width: 17%;
-    }
-    .mount-1{
-        bottom: -6%;
-    }
-    .mount-2{
-        bottom: -8%;
-    }
-    .mount-3{
-        bottom: -11%;
-    }
+/*}*/
+/*@media screen and (max-width: 891px){*/
+/*    .wheel{*/
+/*        height: 35%;*/
+/*        width: 18%;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 819px){*/
+/*    .wheel{*/
+/*        height: 30%;*/
+/*        width: 17%;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 768px){*/
+/*    .car-group{*/
+/*        width: 60%;*/
+/*        height: 120%;*/
+/*    }*/
+/*    .wheel{*/
+/*        height: 28%;*/
+/*        width: 17%;*/
+/*    }*/
+/*    .mount-1{*/
+/*        bottom: -6%;*/
+/*    }*/
+/*    .mount-2{*/
+/*        bottom: -8%;*/
+/*    }*/
+/*    .mount-3{*/
+/*        bottom: -11%;*/
+/*    }*/
 
-}
-@media only screen and (max-width: 742px){
-    .car-group{
-        width: 60%;
-        height: 120%;
-    }
-    .wheel{
-        height: 28%;
-        width: 17%;
-    }
-    .mount-1{
-        bottom: -7%;
-    }
-    .mount-2{
-        bottom: -9%;
-    }
-    .mount-3{
-        bottom: -12%;
-    }
-}
-@media only screen and (max-width: 683px){
-    .mount-1{
-        bottom: -8%;
-    }
-    .mount-2{
+/*}*/
+/*@media only screen and (max-width: 742px){*/
+/*    .car-group{*/
+/*        width: 60%;*/
+/*        height: 120%;*/
+/*    }*/
+/*    .wheel{*/
+/*        height: 28%;*/
+/*        width: 17%;*/
+/*    }*/
+/*    .mount-1{*/
+/*        bottom: -7%;*/
+/*    }*/
+/*    .mount-2{*/
+/*        bottom: -9%;*/
+/*    }*/
+/*    .mount-3{*/
+/*        bottom: -12%;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 683px){*/
+/*    .mount-1{*/
+/*        bottom: -8%;*/
+/*    }*/
+/*    .mount-2{*/
+/*        bottom: -10%;*/
+/*    }*/
+/*    .mount-3{*/
+/*        bottom: -15%;*/
+/*    }*/
+/*    .mount-4{*/
+/*        bottom: -16%;*/
+/*    }*/
+/*    .wheel{*/
+/*        height: 26%;*/
+/*        width: 17%;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 620px){*/
+/*    .mount-1{*/
+/*        bottom: -10%;*/
+/*    }*/
+/*    .mount-2{*/
+/*        bottom: -12%;*/
+/*    }*/
+/*    .mount-3{*/
+/*        bottom: -17%;*/
+/*    }*/
+/*    .mount-4{*/
+/*        bottom: -16%;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 554px){*/
+/*    .car-group{*/
+/*        width: 60%;*/
+/*        height: 120%;*/
+/*    }*/
+/*    .wheel{*/
+/*        height: 25%;*/
+/*        width: 17%;*/
+/*    }*/
+/*    .mount-1{*/
+/*        bottom: -12%;*/
+/*    }*/
+/*    .mount-2{*/
+/*        bottom: -16%;*/
+/*    }*/
+/*    .mount-3{*/
+/*        bottom: -18%;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 499px){*/
+/*    .car-group{*/
+/*        width: 70%;*/
+/*        height: 110%;*/
+/*    }*/
+/*    .wheel{*/
+/*        height: 24%;*/
+/*        width: 18%;*/
+/*    }*/
+/*    .mount-1{*/
+/*        bottom: -14%;*/
+/*    }*/
+/*    .mount-2{*/
+/*        bottom: -20%;*/
+/*    }*/
+/*    .mount-3{*/
+/*        bottom: -22%;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 425px){*/
+/*    .car-group{*/
+/*        width: 70%;*/
+/*        height: 90%;*/
+/*        top: 10%;*/
+/*    }*/
+/*    .wheel{*/
+/*        height: 28%;*/
+/*        width: 17%;*/
+/*    }*/
+/*    .mount-1{*/
+/*        bottom: -15%;*/
+/*    }*/
+/*    .mount-2{*/
+/*        bottom: -21%;*/
+/*    }*/
+/*    .mount-3{*/
+/*        bottom: -25%;*/
+/*    }*/
+/*    .mount-4{*/
+/*        bottom: -25%;*/
+/*    }*/
+/*    .rain{*/
+/*        height: 15px;*/
+/*    }*/
+/*    .image-01{*/
+/*        width: 25%;*/
+/*        height: 25%;*/
+/*        top: 35%;*/
+/*        left: -25%;*/
+/*        animation-duration:50s;*/
+/*    }*/
+/*    .image-02{*/
+/*        width: 25%;*/
+/*        height: 25%;*/
+/*        top: 15%;*/
+/*        left: -30%;*/
+/*        animation-duration:45s;*/
+/*     }*/
+/*    .image-03{*/
+/*        width: 25%;*/
+/*        height: 25%;*/
+/*        top: 15%;*/
+/*        left: -35%;*/
+/*        animation-duration:40s;*/
+/*      }*/
+/*}*/
+/*@media screen and (max-width: 350px){*/
+/*    .wheel{*/
+/*        height: 23%;*/
+/*        width: 19%;*/
+/*    }*/
+/*    .mount-1{*/
+/*        bottom: -19%;*/
+/*    }*/
+/*    .mount-2{*/
+/*        bottom: -24%;*/
+/*    }*/
+/*    .mount-3{*/
+/*        bottom: -28%;*/
+/*    }*/
+/*    .mount-4{*/
+/*        bottom: -29%;*/
+/*    }*/
+/*    .car-group{*/
+/*        width: 90%;*/
+/*        height: 70%;*/
+/*        top: 10%;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 325px){*/
+/*    .wheel{*/
+/*        height: 23%;*/
+/*        width: 19%;*/
+/*    }*/
+/*    .mount-1{*/
+/*        bottom: -17%;*/
+/*    }*/
+/*    .mount-2{*/
+/*        bottom: -22%;*/
+/*    }*/
+/*    .mount-3{*/
+/*        bottom: -26%;*/
+/*    }*/
+/*    .mount-4{*/
+/*        bottom: -27%;*/
+/*    }*/
+/*    .car-group{*/
+/*        width: 60%;*/
+/*        height: 80%;*/
+/*        top: 15%;*/
+/*    }*/
+/*}*/
+@media screen  and (max-width: 1439px){
+    .mount-1, .mount-2, .mount-3,.mount-4{
         bottom: -10%;
     }
-    .mount-3{
+    .car-group{
+        height: 100%;
+    }
+}
+@media screen  and (max-width: 1164px){
+    .mount-1,.mount-2, .mount-3,.mount-4{
         bottom: -15%;
     }
-    .mount-4{
-        bottom: -16%;
-    }
-    .wheel{
-        height: 26%;
-        width: 17%;
-    }
-}
-@media only screen and (max-width: 620px){
     .mount-1{
-        bottom: -10%;
-    }
-    .mount-2{
-        bottom: -12%;
-    }
-    .mount-3{
-        bottom: -17%;
-    }
-    .mount-4{
-        bottom: -16%;
-    }
-}
-@media only screen and (max-width: 554px){
-    .car-group{
         width: 60%;
-        height: 120%;
+        left: -10%;
+        bottom: -13%;
+        z-index: 2;
+    }
+    .car-group{
+        height: 95%;
+        z-index: 30;
+        top: -25%;
+    }
+}
+@media screen  and (max-width: 1150px){
+    .car-group{
+        height: 87%;
+        z-index: 30;
+        top: -25%;
     }
     .wheel{
-        height: 25%;
-        width: 17%;
+        height: 7vw;
+        width: 7vw;
     }
-    .mount-1{
-        bottom: -12%;
+}
+@media screen  and (max-width: 930px){
+    .car-group{
+        height: 87%;
+        z-index: 30;
+        top: -25%;
+        width: 50%;
     }
-    .mount-2{
-        bottom: -16%;
+    .wheel{
+        height: 8vw;
+        width: 8vw;
     }
-    .mount-3{
+    .mount-1,.mount-2, .mount-3,.mount-4{
         bottom: -18%;
     }
 }
-@media only screen and (max-width: 499px){
+@media screen  and (max-width: 840px){
     .car-group{
-        width: 70%;
-        height: 110%;
+        height: 87%;
+        z-index: 30;
+        top: -25%;
+        width: 50%;
     }
     .wheel{
-        height: 24%;
-        width: 18%;
-    }
-    .mount-1{
-        bottom: -14%;
-    }
-    .mount-2{
-        bottom: -20%;
-    }
-    .mount-3{
-        bottom: -22%;
+        height: 9.4vw;
+        width: 9.4vw;
     }
 }
-@media only screen and (max-width: 425px){
+@media screen  and (max-width: 707px){
     .car-group{
-        width: 70%;
-        height: 90%;
-        top: 10%;
+        height: 80%;
+        z-index: 30;
+        top: -25%;
+        width: 55%;
     }
     .wheel{
-        height: 28%;
-        width: 17%;
+        height: 10vw;
+        width: 10vw;
+    }
+    .mount-1,.mount-2, .mount-3,.mount-4{
+        bottom: -22%;
     }
     .mount-1{
-        bottom: -15%;
+        width: 60%;
+        left: -10%;
+        bottom: -14%;
+        z-index: 2;
     }
-    .mount-2{
-        bottom: -21%;
+}
+@media screen  and (max-width: 649px){
+    .car-group{
+        height: 78%;
+        z-index: 30;
+        top: -25%;
+        width: 59%;
     }
-    .mount-3{
+    .wheel{
+        height: 12vw;
+        width: 12vw;
+    }
+    .mount-3,.mount-4{
         bottom: -25%;
     }
-    .mount-4{
-        bottom: -25%;
-    }
-    .rain{
-        height: 15px;
+    .image-01,.image-02,.image-03{
+        width: 40%;
+        height: 30%;
     }
     .image-01{
-        width: 25%;
-        height: 25%;
-        top: 35%;
         left: -25%;
-        animation-duration:50s;
+        animation-duration:40s;
     }
     .image-02{
-        width: 25%;
-        height: 25%;
-        top: 15%;
         left: -30%;
-        animation-duration:45s;
-     }
+        animation-duration:20s;
+    }
     .image-03{
-        width: 25%;
-        height: 25%;
-        top: 15%;
-        left: -35%;
-        animation-duration:40s;
-      }
-}
-@media only screen and (max-width: 375px){
-    .wheel{
-        height: 25%;
-        width: 17%;
-    }
-    .mount-1{
-        bottom: -16%;
+        left: -25%;
+        animation-duration:30s;
     }
 }
-@media only screen and (max-width: 325px){
+@media screen  and (max-width: 512px){
+    .car-group{
+        height: 80%;
+        z-index: 30;
+        top: -25%;
+        width: 69%;
+    }
     .wheel{
-        height: 23%;
-        width: 19%;
+        height: 14vw;
+        width: 14vw;
     }
-    .mount-1{
-        bottom: -17%;
-    }
-    .mount-2{
-        bottom: -22%;
-    }
-    .mount-3{
+    .mount-2,.mount-3,.mount-4{
         bottom: -26%;
     }
-    .mount-4{
-        bottom: -27%;
+    .mount-1{
+        bottom: -18%;
     }
+}
+@media screen  and (max-width: 463px){
     .car-group{
-        width: 60%;
         height: 80%;
-        top: 15%;
+        z-index: 30;
+        top: -25%;
+        width: 75%;
+    }
+    .wheel{
+        height: 14vw;
+        width: 14vw;
+    }
+    .mount-2,.mount-3,.mount-4{
+        bottom: -28%;
+    }
+    .mount-1{
+        bottom: -18%;
+    }
+}
+@media screen  and (max-width: 417px){
+    .car-group{
+        height: 70%;
+        z-index: 30;
+        top: -25%;
+        width: 75%;
+    }
+}
+@media screen  and (max-width: 366px){
+    .car-group{
+        height: 70%;
+        z-index: 30;
+        top: -25%;
+        width: 78%;
+    }
+    .wheel{
+        height: 15vw;
+        width: 15vw;
+    }
+}
+@media screen  and (max-width: 337px){
+    .car-group{
+        height: 67%;
+        z-index: 30;
+        top: -15%;
+        width: 82%;
+    }
+    .wheel{
+        height: 16vw;
+        width: 16vw;
+    }
+    .mount-1{
+        bottom: -22%;
+    }
+}
+@media screen  and (max-width: 296px){
+    .car-group{
+        height: 60%;
+        z-index: 30;
+        top: -10%;
+        width: 90%;
+    }
+    .wheel{
+        height: 18vw;
+        width: 18vw;
     }
 }
